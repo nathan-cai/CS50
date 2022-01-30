@@ -1,0 +1,13 @@
+$color: red;
+
+ul {
+  font: 14px;
+  color: $color;
+}
+
+ol {
+  font-size: 18px;
+  color: $color;
+}
+// use this in terminal Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+// sass --watch variables.scss:variables.css (automate the compiling)
